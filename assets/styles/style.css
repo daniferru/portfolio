@@ -1,3 +1,46 @@
-.text-center{
+body {
+    position: relative;
+    font-family: 
+    font-size: 20px;
+    background-color: #367588;
+    color: #f0f8ff;
+}
+
+h1,
+h2 {
+    margin: 20px;
+}
+
+.display-inline li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #367588;
+}
+
+a {
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #c2d5db;
+    color: #1b3a44;
+}
+
+.text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
