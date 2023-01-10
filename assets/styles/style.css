@@ -1,40 +1,47 @@
-body {
-    position: relative;
-    font-family: 
+.panel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.panel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.panel a:hover {
+    color: #f1f1f1;
+}
+  
+.panel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+  
+.openbtn {
     font-size: 20px;
-    background-color: #367588;
-    color: #f0f8ff;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
 }
-
-h1,
-h2 {
-    margin: 20px;
-}
-
-.display-inline li {
-    display: inline;
-    padding: 0px 20px;
-    text-decoration: none;
-}
-
-header,
-footer {
-    height: 60px;
-    width: 100%;
-    line-height: 60px;
-    background-color: #367588;
-}
-
-a {
-    text-decoration: none;
-    color: #f0f8ff;
-}
-
-button {
-    height: 40px;
-    width: 120px;
-    background-color: #c2d5db;
-    color: #1b3a44;
+  
+.openbtn:hover {
+    background-color:#444;
 }
 
 .text-center {
@@ -42,5 +49,46 @@ button {
 }
 
 .text-right {
-    text-align: right;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.text-left{
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+body {
+    background-image: linear-gradient(to left,#42275a, #734b6d);
+    color: #f1f1f1;
+}
+
+
+
+img {
+    scale: 50%;
+    margin-left: 250px;
+    display: flex;
+    
+}
+
+a {
+    transition: background-color 0.5s;
+    color: #f1f1f1;
+    margin-bottom: 100px;
+}
+
+a:hover {
+    background-color: #818181;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
 }
