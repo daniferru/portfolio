@@ -71,7 +71,7 @@ img {
     scale: 50%;
     margin-left: 250px;
     display: flex;
-    
+
 }
 
 a {
@@ -91,4 +91,8 @@ footer {
     width: 100%;
     text-align: center;
     padding: 10px;
+}
+
+@media screen {
+    
 }
