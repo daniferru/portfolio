@@ -2,10 +2,9 @@
 Daniella Ferrufino
 
 ## Technologies Used
-*HTML
-*CSS
-*Bootstrap
-*JavaScript
+* HTML
+* CSS
+* Bootstrap
 
 ## Description
 I am now able to refer and showcase the projects I have completed to potential employers a functioning portfolio to display my talent and knowledge off full-stack web development. 
