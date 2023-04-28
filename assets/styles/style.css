@@ -1,10 +1,38 @@
+body {
+    background-image: linear-gradient(to left,#42275a, #734b6d);
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+h1 {
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 3px 3px #111;
+    text-size-adjust: 65px;
+}
+
+h2 {
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 3px 3px #111;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+
+img {
+    max-width: 50%;
+}
+
+.header {
+    font-family: 'Bruno Ace SC', cursive;
+    background-color: #0e0d0d;
+}
+
 .panel  {
     width: 0;
     position: fixed;
     z-index: 1;
     height: 100%;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
@@ -44,30 +72,30 @@
     background-color:#444;
 }
 
-.text-center {
+.center-text {
     text-align: center;
 }
 
-.text-right {
+.proj-title {
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+}
+
+.proj-img {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
 }
 
-
-body {
-    background-image: linear-gradient(to left,#42275a, #734b6d);
-    color: #f1f1f1;
-    background-repeat: no-repeat;
-}
-
-img {
-    max-width: 50%;
+.social {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
 }
 
 a {
     transition: background-color 0.5s;
-    color: #f1f1f1;
+    color: aliceblue;
     margin-bottom: 100px;
 }
 
@@ -76,12 +104,9 @@ a:hover {
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    
+    flex-direction: column;
     text-align: center;
-    padding: 10px;
+    padding: 80px;
 }
 
 @media screen and (max-width:992px) {
